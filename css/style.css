@@ -102,7 +102,7 @@ header.nav-fixed nav.navbar.navbar-expand-lg.stroke {
   line-height: 50px;
   font-weight: 600;
   /* color: #060606; */
-color: var(--text-color);
+  color: var(--text-color);
 
 }
 
@@ -239,6 +239,7 @@ nav {
   --text-color: #fff;
 
 }
+
 body {
 
   background-color: var(--bg-color);
@@ -346,7 +347,7 @@ body {
 /*---------------
 /* banner */
 
-.slide .carousel-inner{
+.slide .carousel-inner {
   border-bottom-left-radius: 30px;
 }
 
@@ -355,13 +356,13 @@ body {
   left: 10em;
   z-index: 1;
 }
+
 /* .bann-contents h3{
 color: var(--text-color)
 
 } */
 .banner-left h2 {
-color: var(--text-color);
-/* color: #f4f4f4; */
+  color: #f4f4f4;
   font-size: 120px;
   font-weight: bold;
   margin-left: -.5em;
@@ -376,9 +377,11 @@ color: var(--text-color);
 p.banner-text {
   font-size: 20px;
 }
-#work > div > div > div.col-lg-6.feature-grid-right.mt-lg-0.mt-5 > div > div:nth-child(1) > h4{
+
+#work>div>div>div.col-lg-6.feature-grid-right.mt-lg-0.mt-5>div>div:nth-child(1)>h4 {
   color: var(--text-color)
 }
+
 @media (max-width:1440px) {
   .w3l-banner h3 {
     font-size: 40px;
@@ -519,15 +522,15 @@ p.banner-text {
   margin-bottom: 10px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
   font-size: 0px;
   width: 12px;
   height: 12px;
   border-radius: 100%;
 }
 
-.carousel-indicators li:forcus{
-}
+.carousel-indicators li:forcus {}
+
 .carousel-indicators .active {
   background-color: #fb811e;
   opacity: 1;
@@ -551,9 +554,7 @@ p.banner-text {
   background-color: #fb811e;
 } */
 
-#carouselExampleCaptions > ol
-
-.slider-num {
+#carouselExampleCaptions>ol .slider-num {
   margin-right: 1em;
 }
 
@@ -582,7 +583,7 @@ p.banner-text {
   text-align: center;
   box-shadow: 0 1rem 3rem rgb(0 0 0 / 3%);
   background-color: var(--bg-color);
-  
+
 }
 
 .w3l-features .box-wrap:hover {
@@ -1328,7 +1329,8 @@ a.testi-img {
   background-color: #009f4d;
   padding: 80px 0px;
 }
-#what-we-do .card-body{
+
+#what-we-do .card-body {
   color: var(--text-color)
 }
 
@@ -1462,7 +1464,7 @@ a.testi-img {
   border: 1px solid #00000000;
   padding: 2rem 1rem;
   transition: 0.3s ease-in;
-  color: var(--text-color)!important;
+  color: var(--text-color) !important;
 
 }
 
