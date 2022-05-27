@@ -1,1 +1,0 @@
-# bt28-capstone
